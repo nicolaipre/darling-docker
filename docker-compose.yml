@@ -1,0 +1,10 @@
+services:
+  darling:
+    container_name: darling
+    image: ghcr.io/darlinghq/darling/darling:latest
+    stdin_open: true
+    tty: true
+    #entrypoint: "/bin/bash"
+    #ports:
+    #- n:n
+
